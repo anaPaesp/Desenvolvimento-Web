@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Televisão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+       <h1 id="titulo">TV Desligada</h1>
+        <p id="status">Ligue a TV</p>
+        <audio id="musicaTensa" src="audiosamara.mp3" loop></audio>
+
+        <div class="tv-container">
+            <div class="antena"></div>
+            <div class="caixa-tv">
+                
+                <div id="tela" class="tela desligada">
+                    <img id="samaraImg" src="samara.jpg" alt="Samara" class="samara-imagem">
+                </div>
+                
+                <div class="painel-tv">
+                    <div class="botao-tv"></div>
+                    <div class="botao-tv"></div>
+                    <div class="alto-falante"></div>
+                </div>
+            </div>
+        </div>
+
+            <button id="btnLigar" onclick="alternarTV()">Ligar TV 🔴</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
